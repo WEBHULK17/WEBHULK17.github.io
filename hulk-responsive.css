@@ -21,12 +21,20 @@
     .contact-bt , .follow-bt{
         width: 160px;
     }
+
+    .nick-name{
+        top: 40PX;
+    }
 }
 
 /* iphone 6/7/8 plus */
 @media screen  and (min-width:414px){
     .number{
         bottom: -7px;
+    }
+
+    .contact-bt , .follow-bt{
+        width: 180px;
     }
 }
 
