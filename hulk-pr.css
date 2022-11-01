@@ -19,7 +19,7 @@ bottom{
     top: 15px;
     background-color: rgb(125, 60, 152,0.8);
     width: 130px;
-    height: 40px;
+    height: 30px;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
     box-shadow: 3px 5px 5px rgb(0,0,0,0.7);
@@ -60,11 +60,13 @@ bottom{
 
 
 .img-bg{
-    background: linear-gradient(to bottom,rgb(0,0,0,0.0),rgb(0,0,0,0.5)), url(hulk-pr-img/img-phone.jpeg) center/cover;
+    background: linear-gradient(to bottom,rgb(0,0,0,0.0),rgb(0,0,0,0.5)), url(hulk-pr-img/take-phone.JPG) center/cover;
     height: 240px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     animation-name: bottom;
+    animation-duration: 1.5s;
+    animation-name: bottoms;
     animation-duration: 1.5s;
 }
 
@@ -79,9 +81,8 @@ bottom{
     left: 30%;
     border: 7px solid rgb(255,255,255,0.9);
     transition: 0.3s;
-    animation-name: bottom;
-    animation-duration: 4s;
-
+    animation-name: bottoms;
+    animation-duration: 2s;
 }
 
 a{
@@ -297,12 +298,12 @@ a{
     font-size: 13px;
     font-weight: 600;
 }
- */
+ 
 
 
 
 
-@keyframes bottom{
+@keyframes bottoms{
     0%{
         opacity: 0;
         transform: translate(0,-100px);
